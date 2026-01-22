@@ -99,7 +99,15 @@ npm run dev
 ---
 
 ## Screenshots
-Screenshots of the dashboard showing table and map synchronization.
+
+### Dashboard View
+![Dashboard](screenshots/dashboard-ui.png)
+
+### Map View
+![Map](screenshots/map-view.png)
+
+### Repository Structure
+![Repository](screenshots/github-repo.png)
 
 ## Time Spent
 Total time spent on this assignment: ~ 13 hours
