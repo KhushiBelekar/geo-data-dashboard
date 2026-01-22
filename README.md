@@ -104,7 +104,7 @@ npm run dev
 ![Dashboard](screenshots/dashboard-ui.png)
 
 ### Map View
-![Map](screenshots/map-view.png.png)
+![Map](screenshots/map-view.png)
 
 ### Repository Structure
 ![Repository](screenshots/github-repo.png)
