@@ -101,13 +101,13 @@ npm run dev
 ## Screenshots
 
 ### Dashboard View
-![Dashboard](screenshots/dashboard-ui.png)
+![Dashboard](./screenshots/dashboard-ui.png)
 
 ### Map View
-![Map](screenshots/map-view.png)
+![Map](./screenshots/map-view.png)
 
 ### Repository Structure
-![Repository](screenshots/github-repo.png)
+![Repository](./screenshots/github-repo.png)
 
 ## Time Spent
 Total time spent on this assignment: ~ 13 hours
