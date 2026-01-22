@@ -5,7 +5,7 @@ The application demonstrates clean component architecture, efficient handling of
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **React** (Vite)
 - **Functional Components & Hooks only**
@@ -41,9 +41,9 @@ src/
 
 ---
 
-## ✨ Features
+## Features
 
-### 📊 Data Table
+### Data Table
 - Displays paginated project data fetched from a mock JSON source
 - Columns:
   - Project Name
@@ -57,7 +57,7 @@ src/
 
 ---
 
-### 🗺️ Map Integration
+### Map Integration
 - Interactive map rendered using Leaflet
 - Project locations plotted using latitude and longitude
 - **Two-way synchronization**:
@@ -67,7 +67,7 @@ src/
 
 ---
 
-## ⚙️ State Management
+## State Management
 - Implemented using React local state (`useState`, `useMemo`)
 - No Redux or external state libraries
 - Clear separation of concerns:
@@ -76,22 +76,59 @@ src/
 
 ---
 
-## ⚡ Performance Considerations
+## Performance Considerations
 - Client-side pagination to avoid rendering large datasets at once
 - Memoized sorting and filtering to reduce unnecessary re-renders
 - Lightweight map rendering for smooth interaction
 
 ---
 
-## 🧠 Design Decisions
+## Design Decisions
 - **Status-based filtering** was chosen as it is the most meaningful categorical attribute for quick data exploration
 - Leaflet selected for map rendering due to its simplicity and performance
 - Custom CSS used to maintain full control over layout and styling without additional UI libraries
 
 ---
 
-## ▶️ Running the Project Locally
+## Running the Project Locally
 
 ```bash
 npm install
 npm run dev
+
+---
+
+## Screenshots
+
+### Dashboard View
+![Dashboard](screenshots/dashboard-ui.png)
+
+### Map View
+# ![Map](./screenshots/map-view.png)
+![Map](./screenshots/map-view.png)
+
+### Repository Structure
+![Repository](screenshots/github-repo.png)
+
+## Time Spent
+Total time spent on this assignment: ~ 13 hours
+
+## Technical Decisions
+- Used Vite + React for fast development
+- Used React Leaflet for map visualization
+- Used functional components and hooks only
+- Local state used for simplicity
+
+## Performance
+- Client-side pagination to handle large datasets
+- Optimized rendering to support 5k+ rows
+
+## Map & UI Synchronization
+- Table row click highlights map marker
+- Map marker click highlights table row
+
+## Component Decomposition
+- Dashboard: layout and shared state
+- DataTable: table UI and pagination
+- MapView: map and markers
+- useProjects: data logic
