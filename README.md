@@ -16,28 +16,27 @@ The application demonstrates clean component architecture, efficient handling of
 ---
 
 ## 📂 Project Structure
-
 src/
 ├── app/
-│   ├── components/
-│   │   ├── DataTable.jsx
-│   │   ├── DataTable.css
-│   │   └── MapView.jsx
-│   ├── pages/
-│   │   ├── Dashboard.jsx
-│   │   └── Dashboard.css
-│   ├── hooks/
-│   │   └── useProjects.js
-│   ├── data/
-│   │   └── projects.json
-│   └── App.jsx
+│ ├── components/
+│ │ ├── DataTable.jsx
+│ │ ├── DataTable.css
+│ │ └── MapView.jsx
+│ ├── pages/
+│ │ ├── Dashboard.jsx
+│ │ └── Dashboard.css
+│ ├── hooks/
+│ │ └── useProjects.js
+│ ├── data/
+│ │ └── projects.json
+│ └── App.jsx
 │
 ├── assets/
 ├── App.css
 ├── index.css
 └── main.jsx
 
-
+text
 
 ---
 
@@ -95,39 +94,43 @@ src/
 ```bash
 npm install
 npm run dev
+Screenshots
+Dashboard View
+https://raw.githubusercontent.com/KhushiBelekar/geo-data-dashboard/main/screenshots/dashboard-ui.png
 
----
+Map View
+https://raw.githubusercontent.com/KhushiBelekar/geo-data-dashboard/main/screenshots/map-view.png
 
-## Screenshots
+Repository Structure
+https://raw.githubusercontent.com/KhushiBelekar/geo-data-dashboard/main/screenshots/github-repo.png
 
-### Dashboard View
-![Dashboard](https://github.com/KhushiBelekar/geo-data-dashboard/raw/main/screenshots/dashboard-ui.png)
-
-### Map View
-![Map](https://github.com/KhushiBelekar/geo-data-dashboard/raw/main/screenshots/map-view.png)
-
-### Repository Structure
-![Repository](https://github.com/KhushiBelekar/geo-data-dashboard/raw/main/screenshots/github-repo.png)
-
-## Time Spent
+Time Spent
 Total time spent on this assignment: ~ 13 hours
 
-## Technical Decisions
-- Used Vite + React for fast development
-- Used React Leaflet for map visualization
-- Used functional components and hooks only
-- Local state used for simplicity
+Technical Decisions
+Used Vite + React for fast development
 
-## Performance
-- Client-side pagination to handle large datasets
-- Optimized rendering to support 5k+ rows
+Used React Leaflet for map visualization
 
-## Map & UI Synchronization
-- Table row click highlights map marker
-- Map marker click highlights table row
+Used functional components and hooks only
 
-## Component Decomposition
-- Dashboard: layout and shared state
-- DataTable: table UI and pagination
-- MapView: map and markers
-- useProjects: data logic
+Local state used for simplicity
+
+Performance
+Client-side pagination to handle large datasets
+
+Optimized rendering to support 5k+ rows
+
+Map & UI Synchronization
+Table row click highlights map marker
+
+Map marker click highlights table row
+
+Component Decomposition
+Dashboard: layout and shared state
+
+DataTable: table UI and pagination
+
+MapView: map and markers
+
+useProjects: data logic
