@@ -104,7 +104,6 @@ npm run dev
 ![Dashboard](screenshots/dashboard-ui.png)
 
 ### Map View
-# ![Map](./screenshots/map-view.png)
 ![Map](https://github.com/KhushiBelekar/geo-data-dashboard/raw/main/screenshots/map-view.png)
 
 ### Repository Structure
