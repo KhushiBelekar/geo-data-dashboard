@@ -101,13 +101,13 @@ npm run dev
 ## Screenshots
 
 ### Dashboard View
-![Dashboard](screenshots/dashboard-ui.png)
+![Dashboard](https://github.com/KhushiBelekar/geo-data-dashboard/raw/main/screenshots/dashboard-ui.png)
 
 ### Map View
 ![Map](https://github.com/KhushiBelekar/geo-data-dashboard/raw/main/screenshots/map-view.png)
 
 ### Repository Structure
-![Repository](screenshots/github-repo.png)
+![Repository](https://github.com/KhushiBelekar/geo-data-dashboard/raw/main/screenshots/github-repo.png)
 
 ## Time Spent
 Total time spent on this assignment: ~ 13 hours
